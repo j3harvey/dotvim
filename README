@@ -4,3 +4,14 @@ Setup:
     
     $ ln -s vimrc ~/.vimrc
     $ git submodule update --init
+
+You may also want to run:
+
+    $ ln -s tmp ~/.vim/tmp
+    $ ln -s bundle ~/.vim/bundle
+
+if these directories do not already exist, or else modify these lines in
+vimrc:
+
+    call pathogen#infect("path-to-bundles")
+    set directory="directory-for-temporary-files"

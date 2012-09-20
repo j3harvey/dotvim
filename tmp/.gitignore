@@ -1,0 +1,3 @@
+# To ensure that the tmp folder is created, it cannot be empty
+*
+!.gitignore
