@@ -23,6 +23,9 @@ set modelines=0
 set textwidth=79
 set directory=~/.vim/tmp
 
+" enable pasting when in insert mode
+set paste
+
 " appearance
 set encoding=utf-8
 set termencoding=utf-8
