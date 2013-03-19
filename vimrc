@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 set mouse=a
 set term=xterm-256color
 set modelines=0
-set textwidth=79
+"set textwidth=79
 set directory=~/.vim/tmp
 
 " enable pasting when in insert mode
@@ -30,13 +30,13 @@ set paste
 set encoding=utf-8
 set termencoding=utf-8
 set laststatus=2
-set colorcolumn=80
+"set colorcolumn=80
 set wildmenu
 set wildignore=*.pyc
 set title
 set showcmd
 set showmode
-set visualbell
+"set visualbell
 set nofoldenable
 set ruler
 
@@ -52,8 +52,8 @@ set ignorecase
 
 " colors
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " key bindings
 let mapleader = ","
