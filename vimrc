@@ -49,6 +49,8 @@ set incsearch
 set showmatch
 set smartcase
 set ignorecase
+" Clear search highlighting with esc
+nnoremap <esc> :noh<return><esc>
 
 " colors
 syntax enable
