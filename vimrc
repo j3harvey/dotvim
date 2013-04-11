@@ -2,6 +2,7 @@
 set nocompatible
 
 " load plugins
+filetype on
 filetype off
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
