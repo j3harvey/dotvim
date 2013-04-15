@@ -95,6 +95,8 @@ autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
 autocmd BufNewFile,BufRead *.json set filetype=javascript
 autocmd BufNewFile,BufRead *.json set tw=0
 autocmd BufNewFile,BufRead *.ebnf set filetype=ebnf
+autocmd BufNewFile,BufRead *.fasta set filetype=fasta
+autocmd FileType fasta setlocal wrap!
 
 " supertab
 let g:SuperTabDefaultCompletionType = "context"
