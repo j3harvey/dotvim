@@ -23,7 +23,7 @@ set modelines=0
 "set textwidth=79
 set directory=~/.vim/tmp
 set cursorline
-hi CursorLine term=bold cterm=bold ctermbg=white guibg=Grey60
+hi CursorLine term=bold cterm=bold ctermbg=black guibg=Grey60
 
 " enable pasting when in insert mode
 set paste
